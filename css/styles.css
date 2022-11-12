@@ -1,0 +1,175 @@
+/* Do pliku dodaję komentarze po angielsku i różne dodatkowe opisy, żeby później po ponownym otworzeniu pamiętać czemu pewne rzeczy są komentarzach */
+
+:root {
+  --font-main-color: #212121;
+  --font-secondary-color: #757575;
+  --font-hover-link-color: #2196f3;
+  --btn-hover-bg-color: #2196f3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --bg-dark-color: #2f303a;
+  --bg-medium-color: #f5f4fa;
+  --font-transparent: rgb(255 255 255 / 0.6);
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--font-main-color);
+}
+
+/* =====================================  Background colors */
+.upper-main {
+  background-color: var(--bg-dark-color);
+}
+
+.team {
+  background-color: var(--bg-medium-color);
+}
+
+.foot {
+  background-color: var(--bg-dark-color);
+}
+
+/* Links */
+
+.style-link {
+  text-decoration: none;
+}
+
+.transparent {
+  color: var(--font-transparent);
+}
+
+/* ===================================== Hover and focus */
+
+.filter-btn:hover,
+.filter-btn:focus,
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--btn-hover-bg-color);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.style-link:hover,
+.style-link:focus {
+  color: var(--font-hover-link-color);
+}
+
+/* ===================================== Font colors, sizes and weight */
+
+.logo-placeholder {
+  color: var(--color-black);
+  font-family: "Raleway";
+  font-style: normal;
+  /* font-weight: 700; - only this weight is loaded with Google Fonts, therefore there is no need to specify it*/
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-down {
+  color: var(--color-white);
+}
+
+.logo-span {
+  color: var(--font-hover-link-color);
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--font-main-color);
+}
+
+.info-link {
+  color: var(--font-secondary-color);
+}
+
+.showcase-h1 {
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+}
+
+.sections-h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
+.order-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.about-h3 {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-article {
+  color: var(--font-secondary-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
+.teammate-description {
+  color: var(--font-secondary-color);
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
+.adres {
+  font-style: normal;
+}
+
+.where-to {
+  color: var(--color-white);
+}
+
+/* ===================================== Font colors, sizes and weight - PORTFOLIO */
+
+.filter-btn {
+  font-size: 16px;
+  line-height: 1.625;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  color: var(--font-secondary-color);
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
