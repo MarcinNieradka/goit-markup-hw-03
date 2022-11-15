@@ -10,6 +10,7 @@
   --bg-dark-color: #2f303a;
   --bg-medium-color: #f5f4fa;
   --font-transparent: rgb(255 255 255 / 0.6);
+  --nav-border-color: #ececec;
 }
 
 body {
@@ -20,6 +21,9 @@ body {
 /* =====================================  Background colors */
 .upper-main {
   background-color: var(--bg-dark-color);
+  text-align: center;
+  height: 600px;
+  padding-top: 200px;
 }
 
 .team {
@@ -28,9 +32,11 @@ body {
 
 .foot {
   background-color: var(--bg-dark-color);
+  padding-top: 60px;
+  height: 252px;
 }
 
-/* Links */
+/* ===================================== Links */
 
 .style-link {
   text-decoration: none;
@@ -59,6 +65,7 @@ body {
 /* ===================================== Font colors, sizes and weight */
 
 .logo-placeholder {
+  /* display: inline-block; */
   color: var(--color-black);
   font-family: "Raleway";
   font-style: normal;
@@ -66,6 +73,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-left: 215px;
 }
 
 .logo-down {
@@ -77,17 +85,21 @@ body {
 }
 
 .navigation {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  background-color: yellow;
 }
 
 .nav-link {
+  display: block;
   color: var(--font-main-color);
 }
 
 .info-link {
+  display: inline-block;
   color: var(--font-secondary-color);
 }
 
@@ -104,7 +116,7 @@ body {
 .sections-h2 {
   font-size: 36px;
   line-height: 1.17;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -112,6 +124,9 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
 }
 
 .about-h3 {
@@ -177,4 +192,72 @@ body {
 /* ====================== CONTAINER + FLEXBOX */
 
 .container {
+  width: 1200px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  margin: auto;
+}
+
+.header-container {
+  border-bottom: 1px solid var(--nav-border-color);
+  /* width: 1600px; */
+  height: 80px;
+  background-color: aqua;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 254px;
+  justify-content: space-between;
+  margin-right: 371px;
+  margin-left: 93px;
+}
+
+.section {
+  width: 1200px;
+}
+
+.about-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  background-color: #f5f4fa;
+}
+
+.about-list > li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-pic-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.team-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.adres-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin-left: 215px;
+}
+
+.adres-list > li:not(:last-child) {
+  margin-bottom: 10px;
 }

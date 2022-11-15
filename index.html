@@ -15,11 +15,11 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header>
+    <div class="wrapper">
+      <header class="header-container">
         <a class="logo-placeholder style-link" href="#"><span class="logo-span">Web</span>Studio</a>
         <nav class="navigation">
-          <ul>
+          <ul class="nav-links">
             <li><a class="nav-link style-link" href="#">Agencja</a></li>
             <li><a class="nav-link style-link" href="portfolio.html">Portfolio</a></li>
             <li><a class="nav-link style-link" href="#">Kontakt</a></li>
@@ -31,14 +31,14 @@
       <main>
         <!-- 1st section in main-->
         <section class="upper-main">
-          <h1 class="showcase-h1">efektywne rozwiązania dla waszego biznesu</h1>
+          <h1 class="showcase-h1 container">efektywne rozwiązania dla waszego biznesu</h1>
           <button class="order-btn" type="button">Zamów usługę</button>
         </section>
 
         <!-- 2nd section in main-->
-        <section class="about">
+        <section class="container">
           <div>
-            <ul>
+            <ul class="about-list">
               <li>
                 <h3 class="about-h3">Lorem ipsum</h3>
                 <p class="about-article">
@@ -71,7 +71,7 @@
           </div>
           <div>
             <h2 class="sections-h2">Czym się zajmujemy</h2>
-            <ul>
+            <ul class="about-pic-list">
               <li><img src="images/box01.jpg" alt="someone typing on keyboard" width="370" height="294" /></li>
               <li><img src="images/box02.jpg" alt="someone using smartphone" width="370" height="294" /></li>
               <li><img src="images/box03.jpg" alt="someone using tablet" width="370" height="294" /></li>
@@ -81,35 +81,37 @@
 
         <!-- 3rd section in main-->
         <section class="team">
-          <h2 class="sections-h2">Nasz zespół</h2>
-          <ul>
-            <li>
-              <img src="images/team/img01.jpg" alt="picture of John" width="270" height="260" />
-              <h3 class="teammate-name">John Doe</h3>
-              <p class="teammate-description">Product Designer</p>
-            </li>
-            <li>
-              <img src="images/team/img02.jpg" alt="picture of Jane" width="270" height="260" />
-              <h3 class="teammate-name">Jane Doe</h3>
-              <p class="teammate-description">Frontend Developer</p>
-            </li>
-            <li>
-              <img src="images/team/img03.jpg" alt="picture of John" width="270" height="260" />
-              <h3 class="teammate-name">John Doe</h3>
-              <p class="teammate-description">Marketing</p>
-            </li>
-            <li>
-              <img src="images/team/img04.jpg" alt="picture of John" width="270" height="260" />
-              <h3 class="teammate-name">John Doe</h3>
-              <p class="teammate-description">UI Deisgner</p>
-            </li>
-          </ul>
+          <div class="container">
+            <h2 class="sections-h2">Nasz zespół</h2>
+            <ul class="team-list">
+              <li>
+                <img src="images/team/img01.jpg" alt="picture of John" width="270" height="260" />
+                <h3 class="teammate-name">John Doe</h3>
+                <p class="teammate-description">Product Designer</p>
+              </li>
+              <li>
+                <img src="images/team/img02.jpg" alt="picture of Jane" width="270" height="260" />
+                <h3 class="teammate-name">Jane Doe</h3>
+                <p class="teammate-description">Frontend Developer</p>
+              </li>
+              <li>
+                <img src="images/team/img03.jpg" alt="picture of John" width="270" height="260" />
+                <h3 class="teammate-name">John Doe</h3>
+                <p class="teammate-description">Marketing</p>
+              </li>
+              <li>
+                <img src="images/team/img04.jpg" alt="picture of John" width="270" height="260" />
+                <h3 class="teammate-name">John Doe</h3>
+                <p class="teammate-description">UI Deisgner</p>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
       <footer class="foot">
         <a class="logo-placeholder logo-down style-link" href="#"><span class="logo-span">Web</span>Studio</a>
         <address class="adres">
-          <ul>
+          <ul class="adres-list">
             <li>
               <a class="where-to style-link" href="https://goo.gl/maps/Lxoy2PiTruj3LMqQA" target="_blank" rel="noopener nofollow noreferrer">
                 m. Warszawa, Aleje Jerozolimskie 21
