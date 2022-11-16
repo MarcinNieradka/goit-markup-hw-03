@@ -22,8 +22,8 @@ body {
 .upper-main {
   background-color: var(--bg-dark-color);
   text-align: center;
-  height: 600px;
-  padding-top: 200px;
+  /* height: 600px; */
+  padding: 200px 0px;
 }
 
 .team {
@@ -32,8 +32,9 @@ body {
 
 .foot {
   background-color: var(--bg-dark-color);
-  padding-top: 60px;
+  /* padding-top: 60px; */
   height: 252px;
+  padding: 60px 215px 24px 215px;
 }
 
 /* ===================================== Links */
@@ -65,7 +66,7 @@ body {
 /* ===================================== Font colors, sizes and weight */
 
 .logo-placeholder {
-  /* display: inline-block; */
+  display: inline-block;
   color: var(--color-black);
   font-family: "Raleway";
   font-style: normal;
@@ -73,7 +74,9 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-left: 215px;
+  /* margin-right: 93px; ------------------------------------*/
+  background-color: #212121;
+  /* vertical-align: middle; */
 }
 
 .logo-down {
@@ -94,23 +97,46 @@ body {
 }
 
 .nav-link {
-  display: block;
+  /* display: block; */
   color: var(--font-main-color);
 }
 
 .info-link {
-  display: inline-block;
   color: var(--font-secondary-color);
+  /* background-color: #212121; */
+}
+
+.mail-link {
+  display: inline-block;
+  background-color: yellow;
+  /* margin-left: 371px; ------------------------------------------*/
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.tel-link {
+  display: inline-block;
+  background-color: yellow;
+  /* margin-left: 20px; -----------------------------------------*/
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .showcase-h1 {
+  display: block;
+  margin: auto;
   text-transform: uppercase;
   color: var(--color-white);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
-  /* text-align: center; */
+  text-align: center;
   letter-spacing: 0.06em;
+  width: 700px;
 }
 
 .sections-h2 {
@@ -127,6 +153,8 @@ body {
   margin-top: 30px;
   width: 200px;
   height: 50px;
+  border: none;
+  padding: 0;
 }
 
 .about-h3 {
@@ -190,12 +218,6 @@ body {
 }
 
 /* ====================== CONTAINER + FLEXBOX */
-
-.container {
-  width: 1200px;
-  margin: auto;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -203,21 +225,34 @@ body {
   margin: auto;
 }
 
+.container {
+  width: 1200px;
+  padding: 94px 0px;
+  margin: auto;
+}
+
+.about-section {
+  padding-top: 100px;
+}
+
 .header-container {
   border-bottom: 1px solid var(--nav-border-color);
   /* width: 1600px; */
   height: 80px;
   background-color: aqua;
+  padding: 24px 215px 24px 215px;
+  font-size: 0px; /* DELETES EMPTY SPACES BETWEEEN INLINE-BLOCKS!!!!!!!! */
 }
 
 .nav-links {
   display: flex;
   list-style-type: none;
   padding: 0;
+  margin: 0;
   width: 254px;
   justify-content: space-between;
-  margin-right: 371px;
-  margin-left: 93px;
+  /* margin-right: 371px; */
+  /* margin-left: 93px; */
 }
 
 .section {
@@ -246,6 +281,7 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
+  margin: 0;
   justify-content: space-between;
   text-align: center;
 }
@@ -255,9 +291,9 @@ body {
   flex-direction: column;
   list-style: none;
   padding: 0;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .adres-list > li:not(:last-child) {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
