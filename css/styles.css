@@ -248,8 +248,8 @@ body {
 
 .header-container {
   border-bottom: 1px solid var(--nav-border-color);
-  /* background-color: aqua; */
-  padding: 24px 215px 24px 215px;
+  background-color: aqua;
+  padding: 24px 0px;
   font-size: 0px; /* !!!!!!!!!!!! ---------  DELETES SMALL EMPTY SPACES BETWEEEN INLINE-BLOCKS !!!!!!!! */
 }
 
@@ -281,7 +281,7 @@ body {
   flex: 1; /* columns stay the same size no matter how much txt has one */
 }
 
-.whet-we-do {
+.what-we-do {
   /* display: inline-block; */
   /* background-color: #212121; */
   margin-top: 94px;
