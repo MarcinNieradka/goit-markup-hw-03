@@ -49,6 +49,10 @@ body {
   color: var(--font-transparent);
 }
 
+.underline-link {
+  text-decoration: underline;
+}
+
 /* ========================================= Hover and focus ==================================== */
 
 .filter-btn:hover,
