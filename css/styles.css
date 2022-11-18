@@ -334,9 +334,9 @@ body {
   justify-content: space-between;
 }
 
-.portfolio {
-  /* background-color: #2f303a; */ /* --------- only to temporary preview box area */
-}
+/* .portfolio {
+  background-color: #2f303a; --------- only to temporary preview box area
+} */
 
 .portfolio-text-container {
   padding: 20px 24px;
