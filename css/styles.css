@@ -21,7 +21,7 @@ body {
 }
 
 /* =====================================  Background colors ======================================= */
-.upper-main {
+.showcase {
   background-color: var(--bg-dark-color);
   text-align: center;
   /* height: 600px; */
